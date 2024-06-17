@@ -16,3 +16,4 @@ var returnDate = DateOnly.FromDateTime(DateTime.Now);
 var rental = new Rental(driver, startDate, endDate, returnDate, vehicle);
 
 Invoice.Print(rental);
+Console.ReadLine();
